@@ -7,7 +7,7 @@
   },
   "scripts": {
     "serve": "vue-cli-service serve --https --open",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --mode development",
     "lint": "vue-cli-service lint",
     "iconfont": "gulp iconfont",
     "clean": "rimraf node_modules",
